@@ -18,7 +18,7 @@ Rules of the test:
 - Extra: Create a button that bulk adds the provided list of names to the table `names.json`
 
 ### Scoring Calculations:
- - The score is defined as: the sum of each alphabetic character of the name multiplied by it's position in the provided list (found in `names.json`) once sorted in alphabetic order.
+ - The score is defined as: the sum of each alphabetic character of the name multiplied by it's (index + 1) in the provided list (found in `names.json`) once sorted in alphabetic order.
  - For example, the name `COLIN` is 938th in the list after being sorted. It has an alphabetic value of `3 + 15 + 12 + 9 + 14 = 53`, thus the score would be `938 * 53 = 49714`.
  - The example of `COLIN` is `C` is the 3rd letter in the alphabet `O` is the 15th letter in the alphabet
 
