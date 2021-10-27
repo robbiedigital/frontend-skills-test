@@ -3,6 +3,8 @@ In this exercise you'll create a simple table to display various names with a ca
 
 Rules of the test:
 - Use a Frontend Framework of your choice: (Angular, Vue, React, Ember...)
+- For your convenience we have a base install of Angular, Vue, React, Ember pre installed in this repo.
+- We run on node >14
 
 ### Application Requirements
 - Create a text input for entering names.
