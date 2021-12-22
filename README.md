@@ -7,8 +7,8 @@ Rules of the test:
 - We run on node >14
 
 ### Application Requirements
-- Create a text input for entering names.
-- Names can be submitted through a keypress (enter) or button click.
+- Create a text input for adding names to the table.
+  - Names can be submitted through both/either a keypress (enter) or button click.
 - Create a table with columns for row number, name, & score. 
   - This table should show any names added through the input in alphabetical order. 
   - The third column, score, should display a value calculated on the name.
@@ -20,9 +20,12 @@ Rules of the test:
 - Extra: Create a button that bulk adds the provided list of names to the table `names.json`
 
 ### Scoring Calculations:
- - The score is defined as: the sum of each alphabetic character of the name multiplied by it's (index + 1) in the provided list (found in `names.json`) once sorted in alphabetic order.
- - For example, the name `COLIN` is 938th in the list after being sorted. It has an alphabetic value of `3 + 15 + 12 + 9 + 14 = 53`, thus the score would be `938 * 53 = 49714`.
- - The example of `COLIN` is `C` is the 3rd letter in the alphabet `O` is the 15th letter in the alphabet
+ - The score is defined as: the sum of each alphabetic character of the name multiplied by it's (index + 1) 
+
+ - For example in `names.json`, the name `COLIN` is 938th in the list after being sorted. It has an alphabetic value of `3 + 15 + 12 + 9 + 14 = 53`, thus the score would be `938 * 53 = 49714`.
+ - The example of `COLIN` 
+   - `C` is the 3rd letter in the alphabet 
+   - `O` is the 15th letter in the alphabet
 
 ### Notes
 If you have any extra time feel free to add any extra features or improvements you would like.
