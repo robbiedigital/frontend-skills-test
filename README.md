@@ -18,7 +18,7 @@ Rules of the test:
 
 ### Bonus Objectives
 - Extra: Create a button that bulk adds the provided list of names to the table `names.json`
-- Extra: add the ability to sort the list by score instead
+- Extra: add the ability to multi sort by name and score
 
 ### Scoring Calculations:
  - The score is defined as: the sum of each alphabetic character of the name multiplied by it's (index + 1) 
